@@ -14,6 +14,7 @@ const skills = [
   "Git",
   "Dart",
   "Flutter",
+  "Figma",
   "CorelDraw",
   "Adobe Photoshop",
   "Adobe Illustrator",
@@ -23,102 +24,118 @@ const skills = [
 // Data for work experience
 const experiences = [
   {
-    company: "Tech Solutions Inc.",
+    company: "CV. Wahana Sukses Bersama",
     position: {
-      en: "Senior Full Stack Developer",
-      id: "Pengembang Full Stack Senior",
+      en: "Graphic Designer (Apprenticeship)",
+      id: "Desainer Grafis (Magang)",
     },
     period: {
-      start: "Jan 2022",
-      end: "Present",
+      start: "Jun 2021",
+      end: "Sep 2021",
     },
     description: {
-      en: "Led a team of 5 developers to build scalable web applications. Implemented CI/CD pipelines and improved deployment processes.",
-      id: "Memimpin tim 5 pengembang untuk membangun aplikasi web yang scalable. Menerapkan pipeline CI/CD dan meningkatkan proses deployment.",
+      en: "I have experience creating visual designs for promotional purposes, such as banners, flyers, and social media content. I collaborate with the marketing team to produce materials tailored to business needs, and make revisions based on feedback from superiors or internal clients. I also participate in UI/UX design to ensure a user-friendly and responsive website. I am also familiar with various design software such as Adobe Illustrator, Photoshop, Figma, and CorelDRAW, and maintain the consistency of the company's visual identity across all graphic assets.",
+      id: "Saya berpengalaman dalam membuat desain visual untuk keperluan promosi seperti banner, flyer, dan konten media sosial. Saya bekerja sama dengan tim marketing untuk menghasilkan materi yang sesuai dengan kebutuhan bisnis, serta melakukan revisi berdasarkan masukan dari atasan atau klien internal. Selain itu, saya terlibat dalam perancangan desain UI/UX agar tampilan situs ramah pengguna dan responsif. Saya juga terbiasa menggunakan berbagai software desain seperti Adobe Illustrator, Photoshop, Figma, dan CorelDRAW, serta menjaga konsistensi identitas visual perusahaan dalam setiap aset grafis.",
     },
-    logo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753967022/nanda-portofolio/LOGO_WSB_blue_sj737c_mbdjn0.ico",
   },
   {
-    company: "Digital Innovations Ltd.",
+    company: "CV. Mekar Cutting Digital",
     position: {
-      en: "Frontend Developer",
-      id: "Pengembang Frontend",
+      en: "Full-Stack Web Developer (Freelancer)",
+      id: "Full-Stack Pengembang Web (Freelancer)",
     },
     period: {
-      start: "Mar 2020",
-      end: "Dec 2021",
+      start: "Jun 2022",
+      end: "Des 2023",
     },
     description: {
-      en: "Developed responsive user interfaces using React and Redux. Collaborated with UX designers to implement pixel-perfect designs.",
-      id: "Mengembangkan antarmuka pengguna responsif menggunakan React dan Redux. Berkolaborasi dengan desainer UX untuk mengimplementasikan desain pixel-perfect.",
+      en: "Experienced in both front-end and back-end website development using HTML, CSS, JavaScript, PHP, and MySQL. Familiar with frameworks like Laravel and React.js to build dynamic web applications. Capable of creating custom CMSs based on client requirements, designing responsive UI/UX, and optimizing performance and cross-browser compatibility. Also provides technical documentation and post-deployment training.",
+      id: "Berpengalaman dalam pengembangan website baik frontend maupun backend menggunakan HTML, CSS, JavaScript, PHP, dan MySQL. Terbiasa menggunakan framework seperti Laravel dan React.js untuk membangun aplikasi web yang dinamis. Mampu membuat CMS kustom sesuai kebutuhan klien, merancang UI/UX yang responsif, serta mengoptimalkan performa dan kompatibilitas lintas browser. Juga menyediakan dokumentasi teknis dan pelatihan setelah deployment.",
     },
-    logo: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753967433/nanda-portofolio/icon_fedg3c_nhg2nt.ico",
   },
   {
-    company: "WebCraft Studio",
+    company: "CV. Sukses Global Mandiri",
     position: {
-      en: "Junior Web Developer",
-      id: "Pengembang Web Junior",
+      en: "Full-Stack Web Developer (Freelancer)",
+      id: "Full-Stack Pengembang Web (Freelancer)",
     },
     period: {
-      start: "Jun 2018",
-      end: "Feb 2020",
+      start: "Mar 2024",
+      end: "Mei 2024",
     },
     description: {
-      en: "Built and maintained client websites using WordPress and custom HTML/CSS/JavaScript solutions.",
-      id: "Membangun dan memelihara website klien menggunakan WordPress dan solusi HTML/CSS/JavaScript kustom.",
+      en: "I built a product portfolio website for CV. Sukses Global Mandiri's Samase brand as a digital showcase platform. The frontend was developed using React.js with a modular component approach, while the backend used Laravel as a RESTful API for product data management. I designed a full-stack architecture that separated the frontend and backend for ease of management and scalability. Throughout the process, I collaborated with the internal team to design navigation, content structure, and visuals in line with the brand identity, implemented basic security practices, and conducted deployment and training for staff.",
+      id: "Saya membangun website portofolio produk untuk brand Samase milik CV. Sukses Global Mandiri sebagai platform digital showcase. Frontend dikembangkan menggunakan React.js dengan pendekatan komponen modular, sementara backend menggunakan Laravel sebagai RESTful API untuk pengelolaan data produk. Saya merancang arsitektur full-stack yang terpisah antara frontend dan backend demi kemudahan pengelolaan dan skalabilitas. Dalam prosesnya, saya bekerja sama dengan tim internal untuk menyusun navigasi, struktur konten, dan visual sesuai identitas brand, menerapkan praktik keamanan dasar, serta melakukan deployment dan pelatihan penggunaan bagi staf.",
     },
-    logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753968110/nanda-portofolio/Fillah_Samase_hm3t1p.ico",
+  },
+  {
+    company: "Freelance Full-Stack Developer & Graphic Designer",
+    position: {
+      en: "Full-Stack Developer & Graphic Designer (Freelancer)",
+      id: "Full-Stack Pengembang & Desainer Grafis (Freelancer)",
+    },
+    period: {
+      start: "Jun 2021",
+      end: "Saat ini",
+    },
+    description: {
+      en: "Experienced in handling various freelance projects, ranging from web, desktop, and mobile application development, to graphic design for clients from various sectors. Involved in the entire project process, from planning to deployment, as well as creating visual identities such as logos and promotional materials. Actively providing creative technology-based solutions for the needs of MSMEs and individuals, while maintaining good communication and technical consultation throughout the project.",
+      id: "Berpengalaman menangani berbagai proyek freelance, mulai dari pengembangan aplikasi web, desktop, dan mobile, hingga desain grafis untuk klien dari berbagai sektor. Terlibat dalam seluruh proses proyek, dari perencanaan hingga deployment, serta menciptakan identitas visual seperti logo dan materi promosi. Aktif memberikan solusi kreatif berbasis teknologi untuk kebutuhan UMKM dan individu, serta menjaga komunikasi dan konsultasi teknis yang baik sepanjang proyek.",
+    },
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753970103/nanda-portofolio/70766138_qsttsa_yq7fhm.ico",
   },
 ];
 
 // Data for education
 const educations = [
   {
-    institution: "University of Technology",
+    institution: "Universitas Amikom Purwokerto",
     degree: {
-      en: "Master of Computer Science",
-      id: "Magister Ilmu Komputer",
+      en: "Bachelor of Information Technology",
+      id: "S1 Teknologi Informasi",
     },
     period: {
-      start: "Sep 2016",
-      end: "May 2018",
+      start: "Sep 2022",
+      end: "Saat ini",
     },
     description: {
-      en: "Specialized in Artificial Intelligence and Web Technologies. Thesis on Machine Learning applications in web development.",
-      id: "Spesialisasi dalam Kecerdasan Buatan dan Teknologi Web. Tesis tentang aplikasi Machine Learning dalam pengembangan web.",
+      en: "-",
+      id: "-",
     },
-    logo: "https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753975638/nanda-portofolio/1676306765719_aus1gl.jpg",
   },
   {
-    institution: "State University",
+    institution: "SMK Negeri 1 Purbalingga",
     degree: {
-      en: "Bachelor of Software Engineering",
-      id: "Sarjana Teknik Perangkat Lunak",
+      en: "Software engineering",
+      id: "Rekayasa Perangkat Lunak",
     },
     period: {
-      start: "Aug 2012",
-      end: "Jun 2016",
+      start: "Jul 2019",
+      end: "Jun 2022",
     },
     description: {
-      en: "Graduated with honors. Active in student organizations and programming competitions.",
-      id: "Lulus dengan pujian. Aktif dalam organisasi mahasiswa dan kompetisi pemrograman.",
+      en: "Graduated with honors, active in school organizations, and participated in various competitions, including in the field of programming.",
+      id: "Lulus dengan predikat memuaskan, aktif dalam organisasi sekolah, serta berpartisipasi dalam berbagai lomba, termasuk di bidang pemrograman.",
     },
-    logo: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753975926/nanda-portofolio/Logo_SMK_Negeri_1_Purbalingga_iheifs.png",
   },
 ];
 
 // Data for projects
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: "Website SD QITA (Sekolah Dasar Qaryah Thayyibah)",
     description: {
-      en: "A modern e-commerce platform with React and Node.js",
-      id: "Platform e-commerce modern dengan React dan Node.js",
+      en: "Qita Elementary School (sdqita.sch.id) is the official website of Qita Elementary School, an Islamic educational institution that promotes a child-friendly and inclusive approach, combining the national curriculum with an integrative thematic 'Creative Curriculum' method. This website provides comprehensive information about the school's vision and mission, online registration, special programs for children with special needs, and various activities that support the academic development, character, and independence of students in an Islamic and supportive environment.",
+      id: "SD Qita (sdqita.sch.id) adalah situs resmi Sekolah Dasar Qita, lembaga pendidikan Islam yang mengusung pendekatan ramah anak dan inklusif, dengan menggabungkan kurikulum nasional dan metode 'Creative Curriculum' tematik integratif. Website ini menyajikan informasi lengkap tentang visi misi sekolah, pendaftaran online, program khusus bagi anak berkebutuhan khusus, serta berbagai kegiatan yang mendukung perkembangan akademik, karakter, dan kemandirian siswa dalam lingkungan yang islami dan suportif.",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
-    tags: ["React", "Node.js", "MongoDB", "Redux"],
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1753976698/nanda-portofolio/sdqita_qcqwqo.png",
+    tags: ["Laravel", "Node.js", "MySql", "React.js", "Tailwind CSS", "Inertia.js", "Cloudinary"],
   },
   {
     title: "Mobile Dashboard",
