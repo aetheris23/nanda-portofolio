@@ -12,6 +12,7 @@ const skills = [
   "PostgreSQL",
   "Firebase",
   "Git",
+  "Github",
   "Dart",
   "Flutter",
   "Figma",
@@ -130,52 +131,107 @@ const projects = [
   {
     title: "Website SD QITA (Sekolah Dasar Qaryah Thayyibah)",
     description: {
-      en: "Qita Elementary School (sdqita.sch.id) is the official website of Qita Elementary School, an Islamic educational institution that promotes a child-friendly and inclusive approach, combining the national curriculum with an integrative thematic 'Creative Curriculum' method. This website provides comprehensive information about the school's vision and mission, online registration, special programs for children with special needs, and various activities that support the academic development, character, and independence of students in an Islamic and supportive environment.",
-      id: "SD Qita (sdqita.sch.id) adalah situs resmi Sekolah Dasar Qita, lembaga pendidikan Islam yang mengusung pendekatan ramah anak dan inklusif, dengan menggabungkan kurikulum nasional dan metode 'Creative Curriculum' tematik integratif. Website ini menyajikan informasi lengkap tentang visi misi sekolah, pendaftaran online, program khusus bagi anak berkebutuhan khusus, serta berbagai kegiatan yang mendukung perkembangan akademik, karakter, dan kemandirian siswa dalam lingkungan yang islami dan suportif.",
+      en: "Qita Elementary School (sdqita.sch.id) is a child-friendly and inclusive Islamic elementary school that combines the national curriculum with the thematic Creative Curriculum. Its official website provides comprehensive information on its vision and mission, registration, special needs programs, and activities to develop students' academics, character, and independence within a supportive Islamic environment.",
+      id: "SD Qita (sdqita.sch.id) adalah sekolah dasar Islam ramah anak dan inklusif yang menggabungkan kurikulum nasional dengan Creative Curriculum tematik. Situs resminya menyajikan info lengkap tentang visi misi, pendaftaran, program ABK, dan kegiatan pengembangan akademik, karakter, serta kemandirian siswa dalam lingkungan islami yang suportif.",
     },
     imageUrl:
       "https://res.cloudinary.com/dnmkw2715/image/upload/v1753976698/nanda-portofolio/sdqita_qcqwqo.png",
-    tags: ["Laravel", "Node.js", "MySql", "React.js", "Tailwind CSS", "Inertia.js", "Cloudinary"],
+    tags: [
+      "Laravel",
+      "Node.js",
+      "MySql",
+      "React.js",
+      "Tailwind CSS",
+      "Inertia.js",
+      "Cloudinary",
+    ],
   },
   {
-    title: "Mobile Dashboard",
+    title: "Mekar Laser Logo",
     description: {
-      en: "Analytics dashboard for mobile applications",
-      id: "Dasbor analitik untuk aplikasi mobile",
+      en: "A graphic design project for Mekar Laser Cutting Digital, creating a logo that represents its identity and business. The logo design was created using CorelDraw software.",
+      id: "Proyek desain grafis untuk perusahaan Mekar Laser Cutting Digital, berupa pembuatan logo perusahaan yang merepresentasikan identitas dan bidang usahanya. Desain logo dibuat menggunakan software CorelDraw.",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80",
-    tags: ["Vue.js", "Tailwind CSS", "Firebase", "Chart.js"],
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/Mekar_Laser_Logo_2_ayg8i8_u3izvc.png",
+    tags: ["CorelDraw"],
   },
   {
-    title: "Task Management App",
+    title: "Softdev Logo",
     description: {
-      en: "Productivity app for managing tasks and projects",
-      id: "Aplikasi produktivitas untuk mengelola tugas dan proyek",
+      en: "A graphic design project for Softdev Community, creating a logo that reflects the company's identity and character. The design was created using CorelDraw software.",
+      id: "Proyek desain grafis untuk perusahaan Softdev Community, berupa pembuatan logo yang mencerminkan identitas dan karakter perusahaan. Desain dibuat menggunakan software CorelDraw.",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    tags: ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/SoftDev_Logo_3_gz5tmx_tedi6s.png",
+    tags: ["CorelDraw"],
   },
   {
-    title: "Social Media Platform",
+    title: "Website Samase",
     description: {
-      en: "Social network for connecting professionals",
-      id: "Jaringan sosial untuk menghubungkan profesional",
+      en: "This freelance website development project is for Sukses Global Mandiri, a company specializing in herbal medicines. This website was created for their flagship product, Fillah Samase (samase.id), which focuses on holistic solutions for stomach and digestive health.",
+      id: "Proyek freelance pembuatan website untuk Sukses Global Mandiri, perusahaan yang bergerak di bidang obat-obatan herbal. Website ini dibuat untuk produk unggulan mereka, Fillah Samase (samase.id), yang fokus pada solusi holistik untuk kesehatan lambung dan pencernaan.",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
-    tags: ["React", "GraphQL", "Node.js", "MongoDB"],
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062667/nanda-portofolio/20240722669dbcb1c7d13_d7wsao.jpg",
+    tags: [
+      "Laravel",
+      "Node.js",
+      "React.js",
+      "Tailwind CSS",
+      "Inertia.js",
+      "Cloudinary",
+    ],
   },
   {
-    title: "Weather Application",
+    title: "Website Bima Helm",
     description: {
-      en: "Real-time weather forecasting application",
-      id: "Aplikasi prakiraan cuaca real-time",
+      en: "One of the team's projects during their freelance work at CV. Mekar Cutting Digital was the creation of the website for Bima Helm (bimahelm.com), a leading motorcycle helmet and accessories store in Purbalingga, Central Java. This website serves as an e-commerce portfolio for showcasing and selling various products such as helmets, face shields, raincoats, and other accessories.",
+      id: "Salah satu proyek tim selama freelance di CV. Mekar Cutting Digital adalah pembuatan website Bima Helm (bimahelm.com), toko helm dan aksesoris motor terkemuka di Purbalingga, Jawa Tengah. Website ini berfungsi sebagai e-commerce portofolio untuk menampilkan dan menjual berbagai produk seperti helm, faceshield, jas hujan, dan aksesoris lainnya.",
     },
     imageUrl:
-      "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1675&q=80",
-    tags: ["JavaScript", "API Integration", "CSS3", "HTML5"],
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062119/nanda-portofolio/bimahelm_elnswl_r4t7ma.png",
+    tags: ["Laravel", "Node.js", "Tailwind CSS", "Cloudinary"],
+  },
+  {
+    title: "Website Mekar Laser",
+    description: {
+      en: "A company profile website development project for CV. Mekar Cutting Digital, an advertising and digital marketing company in Purbalingga with over 5 years of experience. The website includes common features such as a Homepage, About Us, and Portfolio. Built using Laravel, Bootstrap, JavaScript, AOS.js, and other supporting technologies.",
+      id: "Proyek pembuatan website company profile untuk CV. Mekar Cutting Digital, perusahaan advertising dan digital marketing di Purbalingga dengan pengalaman lebih dari 5 tahun. Website mencakup fitur umum seperti Beranda, Tentang Kami, dan Portofolio. Dibangun menggunakan Laravel, Bootstrap, JavaScript, AOS.js, dan teknologi pendukung lainnya.",
+    },
+    imageUrl:
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/akrilik_k3qlg8_oq2q3l.png",
+    tags: ["Laravel", "AOS.js", "Javascript", "Bootstrap", "Cloudinary"],
+  },
+  {
+    title: "Website Smega Mart",
+    description: {
+      en: "A project by the Smega Mart website development team (newsmegamart.com), a retail store owned by SMKN 1 Purbalingga. This website is an e-commerce platform integrated with a cashier system. It was built using Laravel, React.js, Tailwind CSS, AOS.js, and other technologies.",
+      id: "Proyek tim pembuatan website Smega Mart (newsmegamart.com), toko retail milik SMKN 1 Purbalingga. Website ini merupakan platform e-commerce yang terintegrasi dengan sistem kasir. Dibangun menggunakan Laravel, React.js, Tailwind CSS, AOS.js, dan teknologi lainnya.",
+    },
+    imageUrl:
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062119/nanda-portofolio/smegamart_dtvtkr_ebsxek.png",
+    tags: ["Laravel", "AOS.js", "React.js", "Tailwind CSS", "Cloudinary"],
+  },
+  {
+    title: "Website Bina Cipta",
+    description: {
+      en: "A web store and company profile project for Bina Cipta, a wig buying and selling company. The website was built using Laravel 8, PHP 7.4, Tailwind CSS, and JavaScript. It features an admin login feature and a CRUD system for content management, along with various other functional features.",
+      id: "Proyek pembuatan web store sekaligus company profile untuk Bina Cipta, perusahaan jual beli rambut palsu. Website dibangun menggunakan Laravel 8, PHP 7.4, Tailwind CSS, dan JavaScript. Terdapat fitur login admin serta sistem CRUD untuk mengelola konten, ditambah berbagai fitur fungsional lainnya.",
+    },
+    imageUrl:
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062119/nanda-portofolio/Screenshot_92_q7dy8a_b5ksan_k0bqzj.png",
+    tags: ["Laravel", "AOS.js", "Javascript", "Bootstrap", "Cloudinary"],
+  },
+  {
+    title: "ZE Graphitech Logo",
+    description: {
+      en: "ZE Graphitech's logo design, a personal branding identity focused on programming and graphic design, was created using Adobe Illustrator.",
+      id: "Desain logo ZE Graphitech, sebagai identitas branding pribadi yang berfokus pada bidang programming dan desain grafis. Logo dibuat menggunakan Adobe Illustrator.",
+    },
+    imageUrl:
+      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/Logo_GraphixTech_r9j8xy_tezh68.png",
+    tags: ["Adobe Illustrator"],
   },
 ];
 
