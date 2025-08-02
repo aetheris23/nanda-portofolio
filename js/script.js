@@ -27,7 +27,7 @@ const experiences = [
   {
     company: "CV. Wahana Sukses Bersama",
     position: {
-      en: "Graphic Designer (Apprenticeship)",
+      en: "Graphic Designer (Internship)",
       id: "Desainer Grafis (Magang)",
     },
     period: {
@@ -43,8 +43,8 @@ const experiences = [
   {
     company: "CV. Mekar Cutting Digital",
     position: {
-      en: "Full-Stack Web Developer (Freelancer)",
-      id: "Full-Stack Pengembang Web (Freelancer)",
+      en: "Full-Stack Web Developer (Freelance)",
+      id: "Full-Stack Pengembang Web (Freelance)",
     },
     period: {
       start: "Jun 2022",
@@ -59,8 +59,8 @@ const experiences = [
   {
     company: "CV. Sukses Global Mandiri",
     position: {
-      en: "Full-Stack Web Developer (Freelancer)",
-      id: "Full-Stack Pengembang Web (Freelancer)",
+      en: "Full-Stack Web Developer (Freelance)",
+      id: "Full-Stack Pengembang Web (Freelance)",
     },
     period: {
       start: "Mar 2024",
@@ -73,10 +73,10 @@ const experiences = [
     logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753968110/nanda-portofolio/Fillah_Samase_hm3t1p.ico",
   },
   {
-    company: "Freelance Full-Stack Developer & Graphic Designer",
+    company: "Freelancer Full-Stack Developer & Graphic Designer",
     position: {
-      en: "Full-Stack Developer & Graphic Designer (Freelancer)",
-      id: "Full-Stack Pengembang & Desainer Grafis (Freelancer)",
+      en: "Full-Stack Developer & Graphic Designer (Freelance)",
+      id: "Full-Stack Pengembang & Desainer Grafis (Freelance)",
     },
     period: {
       start: "Jun 2021",
@@ -95,7 +95,7 @@ const educations = [
   {
     institution: "Universitas Amikom Purwokerto",
     degree: {
-      en: "Bachelor of Information Technology",
+      en: "Information Technology S1",
       id: "S1 Teknologi Informasi",
     },
     period: {
