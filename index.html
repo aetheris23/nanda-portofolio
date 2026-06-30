@@ -1,29 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      http-equiv="Content-Security-Policy"
+      content="
+    default-src 'self';
+    img-src 'self' https:;
+    script-src 'self';
+    style-src 'self' 'unsafe-inline';
+    font-src 'self' https:;
+"
+    />
     <title>Tresnanda Agsifa Cakra Buana - Personal Website</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dnmkw2715/image/upload/v1753966576/nanda-portofolio/ChatGPT_Image_24_Jul_2025_18.04.54_2_edit-min_hpydrz.ico">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://res.cloudinary.com/dnmkw2715/image/upload/v1753966576/nanda-portofolio/ChatGPT_Image_24_Jul_2025_18.04.54_2_edit-min_hpydrz.ico"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body class="text-gray-800 min-h-screen font-sans antialiased">
     <div class="container mx-auto px-4 py-8 md:py-16 max-w-6xl">
       <!-- Header -->
       <header class="flex justify-between items-center mb-12 md:mb-20">
-        <div class="text-xl font-bold gradient-text">devnanda.my.id</div>
+        <div class="text-xl font-bold gradient-text uppercase">devnanda</div>
         <div class="flex items-center gap-4">
           <button
             id="language-toggle"
             class="p-2 rounded-full hover:bg-gray-200 transition-colors text-sm font-medium border border-gray-200"
           >
-            <span class="en-lang">ID</span>
-            <span class="id-lang hidden">EN</span>
+            <span class="en-lang">EN</span>
+            <span class="id-lang hidden">ID</span>
           </button>
         </div>
       </header>
@@ -37,24 +52,23 @@
           Hai, saya Tresnanda Agsifa Cakra Buana
         </h1>
         <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-blue-600">
-          <span class="en-lang">Full Stack Developer | Graphic Designer</span>
-          <span class="id-lang hidden"
-            >Pengembang Full Stack | Desainer Grafis</span
-          >
+          <span class="en-lang">Full Stack Developer</span>
+          <span class="id-lang hidden">Pengembang Full Stack</span>
         </h2>
         <p
           class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed en-lang"
         >
-          Full Stack Developer and multidisciplinary Graphic Designer — building
-          applications for web, mobile, and desktop, while also crafting logos,
-          apparel designs, characters, and branding visuals.
+          Full Stack Developer specializing in building scalable web, mobile,
+          and desktop applications with a focus on clean architecture,
+          performance, and user-centered solutions.
         </p>
         <p
           class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed id-lang hidden"
         >
-          Pengembang Full Stack dan Desainer Grafis multidisiplin — membangun
-          aplikasi untuk web, seluler, dan desktop, sekaligus membuat logo,
-          desain pakaian, karakter, dan visual merek.
+          Full Stack Developer yang memiliki spesialisasi dalam membangun
+          aplikasi web, mobile, dan desktop yang skalabel, dengan fokus pada
+          arsitektur yang bersih, performa, serta solusi yang berpusat pada
+          pengguna.
         </p>
         <div class="flex flex-wrap gap-4">
           <a
@@ -82,20 +96,20 @@
             Lihat pekerjaan saya
           </a>
           <div class="flex gap-4">
-            <a
-              href="/pdf/cv-tresnanda-agsifa-english.pdf"
-              target="_blank"
-              class="px-4 py-3 btn-download rounded-lg font-medium transition-colors flex items-center gap-2 en-lang"
+            <button
+              id="downloadCvEn"
+              class="px-4 py-3 btn-download rounded-lg font-medium transition-colors en-lang"
             >
-              <i class="fas fa-download"></i> Download CV (English)
-            </a>
-            <a
-              href="/pdf/cv-tresnanda-agsifa-indonesia.pdf"
-              target="_blank"
-              class="px-4 py-3 btn-download rounded-lg font-medium transition-colors flex items-center gap-2 id-lang hidden"
+              <i class="fas fa-download"></i>
+              Download CV (English)
+            </button>
+            <button
+              id="downloadCvId"
+              class="px-4 py-3 btn-download rounded-lg font-medium transition-colors id-lang hidden"
             >
-              <i class="fas fa-download"></i> Unduh CV (Indonesia)
-            </a>
+              <i class="fas fa-download"></i>
+              Unduh CV (Indonesia)
+            </button>
           </div>
         </div>
       </section>
@@ -109,37 +123,30 @@
         <div class="flex flex-col-reverse md:grid md:grid-cols-3 gap-8">
           <div class="md:col-span-2">
             <p class="text-gray-600 mb-4 leading-relaxed en-lang">
-              I am a Full-Stack Developer and Graphic Designer with over 4 years
-              of experience developing end-to-end digital solutions. My
-              expertise ranges from designing intuitive interfaces to
-              implementing efficient and secure backends. I am accustomed to
-              building high-performance, user-friendly, scalable applications
-              that adhere to strong security standards.
+              I am a Full-Stack Developer with over 4 years of experience
+              building end-to-end applications across web, mobile, and desktop
+              platforms. My expertise spans both front-end and back-end
+              development, with a strong focus on creating scalable, secure, and
+              high-performance software. I am passionate about writing clean,
+              maintainable code, designing efficient system architectures, and
+              delivering intuitive user experiences. I work effectively both
+              independently and as part of a team, communicate clearly, and
+              continuously expand my technical skills by exploring modern
+              technologies and development best practices.
             </p>
             <p class="text-gray-600 mb-4 leading-relaxed id-lang hidden">
-              Saya adalah seorang Full-Stack Developer dan Graphic Designer
-              dengan lebih dari 4 tahun pengalaman dalam mengembangkan solusi
-              digital end-to-end. Keahlian saya mencakup perancangan antarmuka
-              yang intuitif hingga implementasi backend yang efisien dan aman.
-              Saya terbiasa membangun aplikasi yang berperforma tinggi,
-              user-friendly, scalable, dan memiliki standar keamanan yang baik.
-            </p>
-            <p class="text-gray-600 mb-6 leading-relaxed en-lang">
-              Furthermore, my background in graphic design strengthens my
-              ability to create visually appealing user experiences. I possess
-              solid communication skills and am able to work effectively both
-              individually and in teams. I am always enthusiastic about
-              continuing to learn, adapting to the latest technologies, and
-              making my best contribution to every software development project.
-            </p>
-            <p class="text-gray-600 mb-6 leading-relaxed id-lang hidden">
-              Di samping itu, latar belakang saya di bidang desain grafis
-              memperkuat kemampuan saya dalam menciptakan pengalaman pengguna
-              yang menarik secara visual. Saya memiliki keterampilan komunikasi
-              yang solid dan mampu bekerja secara efektif baik secara individu
-              maupun dalam tim. Saya selalu antusias untuk terus belajar,
-              beradaptasi dengan teknologi terbaru, dan memberikan kontribusi
-              terbaik dalam setiap proyek pengembangan perangkat lunak.
+              Saya adalah seorang Full-Stack Developer dengan pengalaman lebih
+              dari 4 tahun dalam membangun aplikasi *end-to-end* di berbagai
+              platform, mulai dari web, seluler, hingga desktop. Keahlian saya
+              mencakup pengembangan *front-end* maupun *back-end*, dengan fokus
+              utama pada pembuatan perangkat lunak yang skalabel, aman, dan
+              berkinerja tinggi. Saya memiliki semangat tinggi dalam menulis
+              kode yang bersih dan mudah dikelola, merancang arsitektur sistem
+              yang efisien, serta menghadirkan pengalaman pengguna yang
+              intuitif. Saya mampu bekerja secara efektif, baik secara mandiri
+              maupun dalam tim, berkomunikasi dengan jelas, serta terus
+              mengembangkan keterampilan teknis dengan mengeksplorasi teknologi
+              modern dan praktik terbaik dalam pengembangan perangkat lunak.
             </p>
             <div id="skills-container" class="flex flex-wrap gap-2"></div>
           </div>
@@ -158,7 +165,6 @@
         </div>
       </section>
 
-      <!-- Experience Section -->
       <!-- Experience Section -->
       <section id="experience" class="mb-20 md:mb-28 fade-in">
         <h2 class="text-2xl md:text-3xl font-bold mb-6 en-lang">
@@ -182,6 +188,20 @@
 
         <div class="education-grid" id="education-container">
           <!-- Education cards will be inserted here by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Organization Section -->
+      <section id="organization" class="mb-20 md:mb-28 fade-in">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 en-lang">
+          Organization
+        </h2>
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 id-lang hidden">
+          Organisasi
+        </h2>
+
+        <div class="organization-grid" id="organization-container">
+          <!-- Organization cards will be inserted here by JavaScript -->
         </div>
       </section>
 

@@ -1,25 +1,25 @@
 // Data for skills
 const skills = [
-  "JavaScript",
-  "React",
-  "PHP",
-  "Laravel",
-  "Java",
   "Python",
+  "HTML",
+  "CSS3",
+  "JavaScript",
+  "PHP",
+  "React",
+  "Laravel",
   "Node.js",
+  "Java",
+  "Dart",
+  "Flutter",
+  "Golang",
   "Tailwind CSS",
   "Bootstrap",
+  "Figma",
+  "MySql",
   "PostgreSQL",
   "Firebase",
   "Git",
   "Github",
-  "Dart",
-  "Flutter",
-  "Figma",
-  "CorelDraw",
-  "Adobe Photoshop",
-  "Adobe Illustrator",
-  "Clip Studio Paint"
 ];
 
 // Data for work experience
@@ -35,8 +35,8 @@ const experiences = [
       end: "Sep 2021",
     },
     description: {
-      en: "I have experience creating visual designs for promotional purposes, such as banners, flyers, and social media content. I collaborate with the marketing team to produce materials tailored to business needs, and make revisions based on feedback from superiors or internal clients. I also participate in UI/UX design to ensure a user-friendly and responsive website. I am also familiar with various design software such as Adobe Illustrator, Photoshop, Figma, and CorelDRAW, and maintain the consistency of the company's visual identity across all graphic assets.",
-      id: "Saya berpengalaman dalam membuat desain visual untuk keperluan promosi seperti banner, flyer, dan konten media sosial. Saya bekerja sama dengan tim marketing untuk menghasilkan materi yang sesuai dengan kebutuhan bisnis, serta melakukan revisi berdasarkan masukan dari atasan atau klien internal. Selain itu, saya terlibat dalam perancangan desain UI/UX agar tampilan situs ramah pengguna dan responsif. Saya juga terbiasa menggunakan berbagai software desain seperti Adobe Illustrator, Photoshop, Figma, dan CorelDRAW, serta menjaga konsistensi identitas visual perusahaan dalam setiap aset grafis.",
+      en: "I have experience designing user interfaces and user experiences using Figma to create intuitive, responsive, and user-centered application layouts. I collaborate with teams to transform requirements into functional designs and ensure a smooth transition from design to implementation. My understanding of UI/UX principles enables me to build applications that are not only visually consistent but also accessible, easy to use, and optimized for a seamless user experience.",
+      id: "Saya memiliki pengalaman dalam merancang antarmuka pengguna (UI) dan pengalaman pengguna (UX) menggunakan Figma untuk menciptakan tata letak aplikasi yang intuitif, responsif, dan berpusat pada pengguna. Saya berkolaborasi dengan tim untuk menerjemahkan kebutuhan menjadi desain yang fungsional serta memastikan transisi yang lancar dari tahap desain ke implementasi. Pemahaman saya mengenai prinsip-prinsip UI/UX memungkinkan saya membangun aplikasi yang tidak hanya konsisten secara visual, tetapi juga aksesibel, mudah digunakan, dan dioptimalkan untuk memberikan pengalaman pengguna yang mulus.",
     },
     logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753967022/nanda-portofolio/LOGO_WSB_blue_sj737c_mbdjn0.ico",
   },
@@ -73,18 +73,18 @@ const experiences = [
     logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753968110/nanda-portofolio/Fillah_Samase_hm3t1p.ico",
   },
   {
-    company: "Freelancer Full-Stack Developer & Graphic Designer",
+    company: "Freelancer Full-Stack Developer",
     position: {
-      en: "Full-Stack Developer & Graphic Designer (Freelance)",
-      id: "Full-Stack Pengembang & Desainer Grafis (Freelance)",
+      en: "Full-Stack Developer",
+      id: "Full-Stack Pengembang",
     },
     period: {
       start: "Jun 2021",
       end: "Saat ini",
     },
     description: {
-      en: "Experienced in handling various freelance projects, ranging from web, desktop, and mobile application development, to graphic design for clients from various sectors. Involved in the entire project process, from planning to deployment, as well as creating visual identities such as logos and promotional materials. Actively providing creative technology-based solutions for the needs of MSMEs and individuals, while maintaining good communication and technical consultation throughout the project.",
-      id: "Berpengalaman menangani berbagai proyek freelance, mulai dari pengembangan aplikasi web, desktop, dan mobile, hingga desain grafis untuk klien dari berbagai sektor. Terlibat dalam seluruh proses proyek, dari perencanaan hingga deployment, serta menciptakan identitas visual seperti logo dan materi promosi. Aktif memberikan solusi kreatif berbasis teknologi untuk kebutuhan UMKM dan individu, serta menjaga komunikasi dan konsultasi teknis yang baik sepanjang proyek.",
+      en: "Experienced in delivering freelance software development projects across web, mobile, and desktop platforms for clients from various industries. Involved throughout the entire software development lifecycle, from requirements gathering and system design to development, testing, deployment, and maintenance. Focused on building scalable, secure, and user-friendly applications while maintaining clear communication and providing technical consultation to ensure project success.",
+      id: "Berpengalaman dalam mengerjakan proyek pengembangan perangkat lunak secara lepas (*freelance*) yang mencakup platform web, seluler, dan desktop bagi klien dari berbagai industri. Terlibat dalam seluruh siklus hidup pengembangan perangkat lunak, mulai dari pengumpulan kebutuhan dan perancangan sistem hingga pengembangan, pengujian, penerapan (*deployment*), dan pemeliharaan. Berfokus pada pembuatan aplikasi yang skalabel, aman, dan ramah pengguna, sembari menjaga komunikasi yang jelas serta memberikan konsultasi teknis demi memastikan keberhasilan proyek.",
     },
     logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753970103/nanda-portofolio/70766138_qsttsa_yq7fhm.ico",
   },
@@ -126,6 +126,35 @@ const educations = [
   },
 ];
 
+// Data for organization
+const organizations = [
+  {
+    organization: "Forum Asisten",
+    period: {
+      start: "Sep 2023",
+      end: "Saat ini",
+    },
+    description: {
+      en: "**Forum Asisten (FA)** is a student organization under the Laboratory Development and Technology Unit (UPT PLT) at Universitas AMIKOM Purwokerto that supports lecturers in laboratory practical sessions while fostering students' technical and professional development. As a member and later an administrator in the Programming Division, I contributed to technical initiatives, collaborated with fellow members, and helped organize activities that enhanced programming skills and supported the organization's operations.",
+      id: "**Forum Asisten (FA)** adalah organisasi mahasiswa di bawah naungan Unit Pengembangan dan Teknologi Laboratorium (UPT PLT) Universitas AMIKOM Purwokerto yang mendukung dosen dalam kegiatan praktikum laboratorium sekaligus membina pengembangan teknis dan profesional mahasiswa. Sebagai anggota dan kemudian pengurus di Divisi Pemrograman, saya berkontribusi dalam berbagai inisiatif teknis, berkolaborasi dengan sesama anggota, serta membantu menyelenggarakan kegiatan yang meningkatkan keterampilan pemrograman dan mendukung operasional organisasi.",
+    },
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1782802674/nanda-portofolio/forum_asisten_obibby.jpg",
+  },
+  {
+    organization: "Desain Grafis",
+
+    period: {
+      start: "Jul 2019",
+      end: "Jun 2022",
+    },
+    description: {
+      en: "Actively participated in the Graphic Design Division of a student organization at SMKN 1 Purbalingga, contributing to the creation of visual materials for school events, publications, and promotional activities. Collaborated with team members to develop creative designs, maintain consistent visual communication, and support the organization's programs through effective graphic design solutions.",
+      id: "Berpartisipasi aktif dalam Divisi Desain Grafis organisasi siswa di SMKN 1 Purbalingga, serta berkontribusi dalam pembuatan materi visual untuk acara sekolah, publikasi, dan kegiatan promosi. Bekerja sama dengan anggota tim untuk mengembangkan desain kreatif, menjaga konsistensi komunikasi visual, dan mendukung program organisasi melalui solusi desain grafis yang efektif.",
+    },
+    logo: "https://res.cloudinary.com/dnmkw2715/image/upload/v1753975926/nanda-portofolio/Logo_SMK_Negeri_1_Purbalingga_iheifs.png",
+  },
+];
+
 // Data for projects
 const projects = [
   {
@@ -145,26 +174,7 @@ const projects = [
       "Inertia.js",
       "Cloudinary",
     ],
-  },
-  {
-    title: "Mekar Laser Logo",
-    description: {
-      en: "A graphic design project for Mekar Laser Cutting Digital, creating a logo that represents its identity and business. The logo design was created using CorelDraw software.",
-      id: "Proyek desain grafis untuk perusahaan Mekar Laser Cutting Digital, berupa pembuatan logo perusahaan yang merepresentasikan identitas dan bidang usahanya. Desain logo dibuat menggunakan software CorelDraw.",
-    },
-    imageUrl:
-      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/Mekar_Laser_Logo_2_ayg8i8_u3izvc.png",
-    tags: ["CorelDraw"],
-  },
-  {
-    title: "Softdev Logo",
-    description: {
-      en: "A graphic design project for Softdev Community, creating a logo that reflects the company's identity and character. The design was created using CorelDraw software.",
-      id: "Proyek desain grafis untuk perusahaan Softdev Community, berupa pembuatan logo yang mencerminkan identitas dan karakter perusahaan. Desain dibuat menggunakan software CorelDraw.",
-    },
-    imageUrl:
-      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/SoftDev_Logo_3_gz5tmx_tedi6s.png",
-    tags: ["CorelDraw"],
+    links: "https://sdqita.sch.id/",
   },
   {
     title: "Website Samase",
@@ -182,6 +192,7 @@ const projects = [
       "Inertia.js",
       "Cloudinary",
     ],
+    links: "https://samase.id/",
   },
   {
     title: "Website Bima Helm",
@@ -192,6 +203,7 @@ const projects = [
     imageUrl:
       "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062119/nanda-portofolio/bimahelm_elnswl_r4t7ma.png",
     tags: ["Laravel", "Node.js", "Tailwind CSS", "Cloudinary"],
+    links: "https://bimahelm.com/",
   },
   {
     title: "Website Mekar Laser",
@@ -202,6 +214,7 @@ const projects = [
     imageUrl:
       "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/akrilik_k3qlg8_oq2q3l.png",
     tags: ["Laravel", "AOS.js", "Javascript", "Bootstrap", "Cloudinary"],
+    links: "https://mekarlaser.com/",
   },
   {
     title: "Website Smega Mart",
@@ -212,6 +225,7 @@ const projects = [
     imageUrl:
       "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062119/nanda-portofolio/smegamart_dtvtkr_ebsxek.png",
     tags: ["Laravel", "AOS.js", "React.js", "Tailwind CSS", "Cloudinary"],
+    links: "https://newsmegamart.com/",
   },
   {
     title: "Website Bina Cipta",
@@ -222,16 +236,7 @@ const projects = [
     imageUrl:
       "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062119/nanda-portofolio/Screenshot_92_q7dy8a_b5ksan_k0bqzj.png",
     tags: ["Laravel", "AOS.js", "Javascript", "Bootstrap", "Cloudinary"],
-  },
-  {
-    title: "ZE Graphitech Logo",
-    description: {
-      en: "ZE Graphitech's logo design, a personal branding identity focused on programming and graphic design, was created using Adobe Illustrator.",
-      id: "Desain logo ZE Graphitech, sebagai identitas branding pribadi yang berfokus pada bidang programming dan desain grafis. Logo dibuat menggunakan Adobe Illustrator.",
-    },
-    imageUrl:
-      "https://res.cloudinary.com/dnmkw2715/image/upload/v1754062118/nanda-portofolio/Logo_GraphixTech_r9j8xy_tezh68.png",
-    tags: ["Adobe Illustrator"],
+    links: "https://binacipta.com/",
   },
 ];
 
@@ -281,7 +286,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.1 }
+  { threshold: 0.1 },
 );
 
 fadeElements.forEach((el) => {
@@ -344,6 +349,27 @@ educations.forEach((edu) => {
   educationContainer.appendChild(eduElement);
 });
 
+// Render organizations
+const organizationContainer = document.getElementById("organization-container");
+organizations.forEach((orga) => {
+  const orgaElement = document.createElement("div");
+  orgaElement.className = "organization-card";
+
+  orgaElement.innerHTML = `
+    <div class="flex items-start gap-4">
+      <img src="${orga.logo}" alt="${orga.organization}" class="education-logo">
+      <div>
+        <h3 class="text-lg font-bold">${orga.organization}</h3>
+        <p class="text-gray-500 text-sm mb-2">${orga.period.start} - ${orga.period.end}</p>
+        <p class="text-gray-600 en-lang">${orga.description.en}</p>
+        <p class="text-gray-600 id-lang hidden">${orga.description.id}</p>
+      </div>
+    </div>
+  `;
+
+  organizationContainer.appendChild(orgaElement);
+});
+
 // Render projects
 const projectsContainer = document.getElementById("projects-container");
 projects.forEach((project) => {
@@ -365,11 +391,12 @@ projects.forEach((project) => {
             <p class="text-gray-600 mb-4 id-lang hidden">${
               project.description.id
             }</p>
+            <p class="mb-4"><a href="${project.links}" class="text-blue-600" target="_blank">${project.links}</a></p>
             <div class="flex flex-wrap gap-2">
               ${project.tags
                 .map(
                   (tag) =>
-                    `<span class="px-2 py-1 bg-gray-100 rounded-full text-xs">${tag}</span>`
+                    `<span class="px-2 py-1 bg-gray-100 rounded-full text-xs">${tag}</span>`,
                 )
                 .join("")}
             </div>
@@ -381,7 +408,7 @@ projects.forEach((project) => {
 
 // Horizontal scroll with mouse wheel
 const projectsScrollContainer = document.querySelector(
-  ".projects-scroll-container"
+  ".projects-scroll-container",
 );
 let isDown = false;
 let startX;
@@ -416,4 +443,18 @@ projectsScrollContainer.addEventListener("mousemove", (e) => {
 projectsScrollContainer.addEventListener("wheel", (e) => {
   e.preventDefault();
   projectsScrollContainer.scrollLeft += e.deltaY;
+});
+
+document.getElementById("downloadCvEn").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "/pdf/cv-tresnanda-agsifa-english.pdf";
+  link.download = "Tresnanda-Agsifa-CV-English.pdf";
+  link.click();
+});
+
+document.getElementById("downloadCvId").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "/pdf/cv-tresnanda-agsifa-indonesia.pdf";
+  link.download = "Tresnanda-Agsifa-CV-Indonesia.pdf";
+  link.click();
 });
