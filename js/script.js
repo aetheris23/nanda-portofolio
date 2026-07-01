@@ -448,6 +448,7 @@ projectsScrollContainer.addEventListener("wheel", (e) => {
 document.getElementById("downloadCvEn").addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "/pdf/cv-tresnanda-agsifa-english.pdf";
+  link.target = "_blank";
   link.download = "Tresnanda-Agsifa-CV-English.pdf";
   link.click();
 });
@@ -455,6 +456,49 @@ document.getElementById("downloadCvEn").addEventListener("click", () => {
 document.getElementById("downloadCvId").addEventListener("click", () => {
   const link = document.createElement("a");
   link.href = "/pdf/cv-tresnanda-agsifa-indonesia.pdf";
+  link.target = "_blank";
   link.download = "Tresnanda-Agsifa-CV-Indonesia.pdf";
+  link.click();
+});
+
+document.getElementById("emailMe").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "mailto:tresnanda56@gmail.com";
+  link.target = "_blank";
+  link.click();
+});
+
+document.getElementById("emailSaya").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "mailto:tresnanda56@gmail.com";
+  link.target = "_blank";
+  link.click();
+});
+
+document.getElementById("linkedinMe").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "https://linkedin.com/in/tresnanda23";
+  link.target = "_blank";
+  link.click();
+});
+
+document.getElementById("linkedinSaya").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "https://linkedin.com/in/tresnanda23";
+  link.target = "_blank";
+  link.click();
+});
+
+document.getElementById("githubMe").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "https://github.com/aetheris23";
+  link.target = "_blank";
+  link.click();
+});
+
+document.getElementById("githubSaya").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "https://github.com/aetheris23";
+  link.target = "_blank";
   link.click();
 });
