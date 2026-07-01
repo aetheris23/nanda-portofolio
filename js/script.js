@@ -502,3 +502,17 @@ document.getElementById("githubSaya").addEventListener("click", () => {
   link.target = "_blank";
   link.click();
 });
+
+document.getElementById("waMe").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "https://wa.me/6287821931730";
+  link.target = "_blank";
+  link.click();
+});
+
+document.getElementById("waSaya").addEventListener("click", () => {
+  const link = document.createElement("a");
+  link.href = "https://wa.me/6287821931730";
+  link.target = "_blank";
+  link.click();
+});
